@@ -17,6 +17,9 @@ document.querySelector("#button").addEventListener("click", event => {
     .catch(err => console.error(err));
 });
 
+
+
+
 function buildprofile(data) {
   img.src = data.avatar_url;
   username.textContent = data.login;
